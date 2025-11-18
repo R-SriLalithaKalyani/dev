@@ -1,0 +1,20 @@
+pipeline{
+  agent any{
+    stages{
+      stage('Build and Test'){
+        steps{
+          echo 'Build and Test sucessful!!'
+        }
+      }
+      stage('Build and Test'){
+        steps{
+          echo 'Build and Test sucessful!!'
+        }
+    }
+  }
+  post{
+    sucess{
+      echo 'pipeline completed sucessfully!'
+    }
+  }
+}
