@@ -6,9 +6,9 @@ pipeline{
           echo 'Build and Test sucessful!!'
         }
       }
-      stage('Build and Test'){
+      stage('generate artifact'){
         steps{
-          echo 'Build and Test sucessful!!'
+          echo 'generate artifact sucessful!!'
         }
     }
   }
